@@ -239,6 +239,10 @@ body {
 .portfolio_body{
     padding-top: 15px;
 }
+.portfolio_link{
+    text-align: center;
+    padding-top: 10px;
+}
 /* Achievements */
 .achievement-list {
     list-style: none;
