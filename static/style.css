@@ -180,6 +180,89 @@ body {
 .card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+/* ====== Project Card Custom Styles ====== */
+
+/* Netflix Project */
+#Netflix{
+    padding-left: 30px;
+    padding-top: 8px;
+}
+
+.netflix_header {
+    text-align: center;
+    font-size: large;
+    padding-bottom: 6px;
+}
+
+.netflix_body {
+    
+}
+
+.netflix_link{
+    text-align: center;
+    padding-top: 2px;
+}
+
+.netflix_link a:hover {
+    color: #b20710;
+    text-decoration: underline;
+}
+
+/* IPL Project */
+#IPL{
+    padding-left: 30px;
+    padding-top: 8px;
+}
+
+.ipl_header {
+    text-align: center;
+    font-size: large;
+    padding-bottom: 6px;
+}
+
+.ipl_body {
+    
+}
+
+.ipl_link{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.ipl_link a:hover {
+    color: #228b22;
+    text-decoration: underline;
+}
+
+/* Portfolio Project */
+#portfolio{
+    padding-left: 30px;
+    padding-bottom: 5px;
+    padding-top: 8px;
+}
+
+.portfolio_header {
+    text-align: center;
+    font-size: large;
+    padding-bottom: 6px;
+}
+
+.portfolio_body {
+    padding-bottom: 5px;
+
+    
+}
+
+.portfolio_link{
+    text-align: center;
+    padding-top: 9px;
+    
+}
+
+.portfolio_link a:hover {
+    
+}
+
 
 /* ====== Achievements Section ====== */
 .achievement-list {
