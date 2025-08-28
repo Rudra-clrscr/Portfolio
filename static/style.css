@@ -7,10 +7,10 @@
 
 body {
     font-family: "Segoe UI", sans-serif;
-    
     color: #333;
     line-height: 1.6;
     scroll-behavior: smooth;
+    background-color: #f8f9fa;
 }
 
 /* Header / Navbar */
@@ -67,12 +67,10 @@ body {
 
 /* Hero Section */
 .hero {
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     text-align: center;
     padding: 2rem;
     position: relative;
@@ -140,13 +138,9 @@ body {
 /* Content Sections */
 .content {
     max-width: 1500px;
-    
-    
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
-    border-radius: auto;
-    
 }
 
 .section-title {
@@ -181,85 +175,72 @@ body {
     max-block-size: 900px;
     justify-items: center;
     border-style: dotted;
-    
 }
 
 .card:hover {
-    
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-#Netflix {
-    padding-left: 30px;
-    padding-top: 20px;
-}
-
-.netflix_header {
-    text-align: center;
-    padding-top: 9px;
-    font-weight: bolder;
-    font-size: large;
-}
-
-.netflix_body {
-    padding-top: 15px;
-}
-
-.netflix_link {
-    text-align: center;
-    padding-top: 10px;
-}
-.ipl_header{
-    text-align: center;
-    padding-top: 9px;
-    font-weight: bolder;
-    font-size: large;
-}
-.ipl_body{
-    padding-top: 15px;
-}
-#IPL{
-    padding-left: 30px;
-    padding-top: 20px;
-}
-.ipl_link{
-    text-align: center;
-    padding-top: 10px;
-}
-.portfolio_header{
-    text-align: center;
-    padding-top: 9px;
-    font-weight: bolder;
-    font-size: large;
-}
-#portfolio{
-    padding-left: 30px;
-    padding-top: 20px;
-}
-.portfolio_body{
-    padding-top: 15px;
-}
-.portfolio_link{
-    text-align: center;
-    padding-top: 10px;
-}
-/* Achievements */
+/* ====== Achievements Section ====== */
 .achievement-list {
     list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
     padding: 0;
 }
 
 .achievement-item {
-    background: #e9f5fb;
-    margin: 0.5rem 0;
-    padding: 0.8rem 1rem;
-    border-radius: 8px;
-    transition: transform 0.3s;
+    background: #f0f4ff;
+    border: 1px solid #ccd9ff;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .achievement-item:hover {
-    transform: translateX(5px);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
+
+.achievement-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    color: #004080;
+}
+
+.achievement-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.achievement-item img:hover {
+    transform: scale(1.05);
+}
+
+.achievement-item a {
+    text-decoration: none;
+    color: #004080;
+    font-weight: bold;
+}
+
+.achievement-item a:hover {
+    color: #ff6600;
+}
+/* Achievement Descriptions */
+.achievement-desc {
+    font-size: 0.95rem;
+    color: #333;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
 
 /* Footer */
 .site-footer {
